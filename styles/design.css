@@ -1,15 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* Header Banner and text section */
 .head {
     position: relative;
-    /* width: 100%;
-    height: 100vh; */
+
 
 }
-
-/* .head-image {
-    width: 1600px;
-    height: 808px;
-} */
 
 .img {
     width: 569px;
@@ -32,10 +31,11 @@
     font-weight: 700;
 }
 
-.head-description {}
+/* .head-description {} */
 
 .btn {
     margin-bottom: 166px;
+    padding-bottom: 50px;
 }
 
 .btn-primary {
@@ -45,8 +45,9 @@
     font-size: 20px;
     border-radius: 5px;
     border: none;
-    background-color: #fdcfbf;
-    color: #005FAC;
+    background-color: #480048;
+    color: #ffffff;
+    margin-top: 32px;
 
 }
 
@@ -56,24 +57,24 @@
     height: 723.3px;
     display: flex;
     gap: 80px;
-    /* background-color: rgb(206, 215, 224); */
+
     align-content: center;
     margin-left: 150px;
     margin-top: 130px;
     border-radius: 15px;
-    border: 5px dotted #2e1437;
+
 }
 
 .body-description {
     text-align: left;
-    padding-left: 10px;
-    padding-right: 30px;
-    padding-top: 220px;
+    padding: 220px 30px 15px 10px;
+ 
 }
 
 .heading {
     font-weight: 700;
     font-size: 40px;
+    padding-bottom: 25px;
 }
 
 .body-item {
@@ -100,7 +101,7 @@
     display: flex;
     width: 1141px;
     height: 200px;
-    padding-bottom: 120px;
+    padding-bottom: 150px;
     flex-direction: row row row row;
     gap: 150px;
     margin-left: 200px;
@@ -118,5 +119,86 @@
 }
 
 .section-2-description {
-    padding-top:none;
+    padding-top: none;
+}
+
+/* Gradient Option */
+.container {
+    width: 1140px;
+    height: 300px;
+    background: url('../images/watch.png');
+    margin-top: 250px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    padding-left: 64px;
+    padding-top: 65px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+
+}
+
+.color-overlay {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("images/gradient1.png");
+    background-blend-mode: lighten;
+    border-radius: 8px;
+
+}
+
+/* footer section */
+.footer {
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    display: flex;
+}
+
+.footer-part-1,
+.footer-part-2 {
+    color: #F8F8F8;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 150px;
+    margin-left: 170px;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    margin-left: 170px;
+}
+.footer-image{
+    margin-left: 180px;
+    justify-content: space-between;
+
+}
+.footer-part-2{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 150px;
+    margin-left: 170px;
+    margin-bottom: 16px;
+    
+}
+.email-part{
+    height:50px;
+    width: 200px;
+    border: 1px solid red;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+.footer-title-2{
+    margin-bottom: 16px;
 }
