@@ -1,3 +1,40 @@
-*{
-    background-color: darkgoldenrod;
+/* Header Banner and text section */
+.head {
+    position: relative;
+
+}
+
+.head-text {
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+.head-title {
+    font-size: 65px;
+    text-align: right;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.head-description {
+
+}
+
+.btn {
+    margin-bottom: 166px;
+}
+
+.btn-primary {
+    height: 64px;
+    width: 160px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:  #e23d75;
+    color:white;
 }
